@@ -1,4 +1,4 @@
-# Poll Voting API
+# Vote Polling API
 
 ## Getting Started
 

@@ -4,9 +4,6 @@
 			"path": "api"
 		},
 		{
-			"path": "project"
-		},
-		{
 			"path": "client"
 		}
 	],
