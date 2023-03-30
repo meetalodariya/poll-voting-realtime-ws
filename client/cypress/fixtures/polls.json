@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "6424d9d0df5387002a5a67a1",
+    "prompt": "What's your fav xyz ?",
+    "author": "jack sparrow",
+    "totalVoteCount": 2,
+    "createdAt": "2023-03-30T00:37:36.207Z",
+    "updatedAt": "2023-03-30T00:39:02.134Z"
+  },
+  {
+    "_id": "6424d9d0df5432437002a5a67a1",
+    "prompt": "What's your fav fragrance ?",
+    "author": "John doe",
+    "totalVoteCount": 123,
+    "createdAt": "2023-03-30T00:37:36.207Z",
+    "updatedAt": "2023-03-30T00:39:02.134Z"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "name": "poll-voting-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "NODE_ENV=production node ./dist/app.js",
+    "test": "NODE_ENV=test jest --verbose --runInBand",
+    "test:watch": "NODE_ENV=test jest --watch --coverage --verbose",
+    "prettify": "prettier --write",
+    "tsc": "tsc",
+    "dev": "nodemon"
+  },
+  "author": "Meet Alodariya",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.0",
+    "@types/uuid": "^8.3.4",
+    "@types/ws": "^8.5.4",
+    "babel-jest": "^29.3.1",
+    "config": "^3.3.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.2",
+    "ts-jest": "^29.0.3",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@types/lodash": "^4.14.192",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "jest": "^29.5.0",
+    "lint-staged": "^10.2.9",
+    "nodemon": "^2.0.2",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2"
+  }
+}

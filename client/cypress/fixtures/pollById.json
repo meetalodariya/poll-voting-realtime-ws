@@ -1,0 +1,12 @@
+{
+  "_id": "6424d9d0df5387002a5a67a1",
+  "prompt": "Who's your fav actor ?",
+  "author": "Meet",
+  "options": [
+    { "title": "james bond", "_id": "6424d9d0df5387002a5a67a2" },
+    { "title": "tom cruise", "_id": "6424d9d0df5387002a5a67a3" }
+  ],
+  "totalVoteCount": 2,
+  "createdAt": "2023-03-30T00:37:36.207Z",
+  "updatedAt": "2023-03-30T00:39:02.134Z"
+}
