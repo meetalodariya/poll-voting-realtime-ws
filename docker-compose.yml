@@ -6,6 +6,8 @@ services:
     ports:
       # Nginx static server:
       - "8080:80"
+    depends_on:
+      - api
 
   api:
     build: ./api
@@ -18,6 +20,8 @@ services:
       PORT: 8001
       MONGODB_URI: mongodb://mongo:27017
       WEBSOCKET_PORT: 3000
+    depends_on:
+      - mongo
 
   mongo:
     image: mongo:6.0
