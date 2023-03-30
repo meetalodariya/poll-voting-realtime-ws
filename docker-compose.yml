@@ -4,12 +4,15 @@ services:
   client:
     build: ./client
     ports:
+      # Nginx static server:
       - "8080:80"
 
   api:
     build: ./api
     ports:
+      # Express API:
       - "8001:8001"
+      # Websocket server:
       - "3000:3000"
     environment:
       PORT: 8001
@@ -29,6 +32,7 @@ services:
     image: mongo-express
     restart: always
     ports:
+      # MongoDB admin dashboard:
       - 8081:8081
     environment:
       ME_CONFIG_MONGODB_URL: mongodb://mongo:27017/

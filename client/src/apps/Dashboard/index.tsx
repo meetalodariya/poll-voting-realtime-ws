@@ -62,6 +62,7 @@ const Dashboard = () => {
   );
 
   useEffect(() => {
+    // Subscribing to websocket events.
     const websocketClient = new WebSocketClient(
       'ws://localhost:3000?subscribe=online/users,polls/insert,polls/voteCountUpdate',
     );
