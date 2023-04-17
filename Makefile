@@ -14,7 +14,7 @@ up_build:
 	open http://localhost:8080
 	@echo "Docker images built and started!"
 
-## up_build: starts up mongo admin dashboard
+## up_mongo_admin: starts up mongo admin dashboard
 up_mongo_admin: 
 	@echo "Building (when required) and starting docker images..."
 	docker-compose up mongo-express -d
